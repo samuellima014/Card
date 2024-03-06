@@ -1,0 +1,115 @@
+body{background-color: #1d201e;
+color: #fecb00;
+width: 90%;
+max-width: 960px;
+margin: 0 auto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Main-title{font-size: 62px;
+text-transform: uppercase;
+text-align: center;
+margin: 46px;
+margin-bottom: 0;
+}
+
+.main-title2{font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+margin-top: 0;
+gap: 10px;}
+
+.header{display: flex;
+background-color: #fffc89;
+padding: 16px;
+justify-content: space-between;
+text-align: center;
+box-shadow: 0 1px 5px #fecb00;
+}
+
+.header__logo{
+    font-size: 40px;
+    color: #1d201e;
+    padding: 16px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px
+    ;
+}
+
+.header__nav ul{display: flex;
+    gap: 16px;
+list-style-type: none;
+font-size: 18px;
+}
+
+.header__nav a {color: #1d201e;
+text-decoration: none;
+padding: 16px;
+border-radius: 6px;
+}
+.header__nav a:hover{text-decoration:underline ;}
+
+
+a.header__nav--active{
+    background-color: #1d201e;
+    color: #fecb00;
+    pointer-events: none;
+}
+
+.pricing{display: flex;
+gap: 16px;
+}
+
+.pricing-plan{flex: 1;
+background-color: #fffc89;
+padding: 30px;
+border-radius: 6px;
+box-shadow: 0 3px 10px #fecb00;
+color: #1d201e;
+display: flex;
+flex-direction: column;}
+
+.class-plan__title{text-transform: uppercase;
+border-bottom:2px solid #fecb00;
+margin-top: 0;
+padding-bottom: 10px;
+letter-spacing: 2px;}
+
+.pricing-plan p {margin-top: 0;}
+
+.pricing-plan__price{font-size: 30px;}
+
+.pricing-plan__Features{margin: 0 0 35px;
+    color: #1d201e;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex:1
+}
+
+.Pricing-plan__cta{text-decoration: none;
+color: #fecb00;
+background-color: #1d201e;
+border-radius: 6px;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: bold;
+padding: 16px 10px;
+text-align: center;
+
+}
+
+.pricing-plan__Features li::marker{ color: #1d201e;}
+
+.Pricing-plan__cta:hover{outline: 3px solid #1d201e;
+    background-color: transparent;
+    color: #1d201e;
+}
+
+.pricing-plan__Features li{gap: 15px;
+font-size: 17px;
+}
+
+
+
